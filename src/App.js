@@ -12,7 +12,7 @@ function App (){
              name:"Mr.Whiskerson",
              imageUrl:"http://placekitten.com/300/200",
              phone:"(212) 555-1234",
-             email:"mr.whiskaz@catnap.meow" 
+             email:"mr.whiskaz@catnap.meow", 
             }}
             />
 
@@ -21,7 +21,7 @@ function App (){
                 name:"Fluffykins",
                 imageUrl:"http://placekitten.com/400/200",
                 phone:"(212) 555-2345",
-                email:"fluff@me.com"
+                email:"fluff@me.com",
             }}
             />
             
