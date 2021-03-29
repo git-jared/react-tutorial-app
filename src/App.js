@@ -1,9 +1,19 @@
 import React from "react"
-import CheckBoxes from "./components/CheckBoxes"
+import TodoItem from "./components/TodoItem"
+
 
 function App (){
     return (
-            <CheckBoxes/>
+        <div>
+        <TodoItem/>
+
+        <TodoItem/>
+
+        <TodoItem/>
+
+        <TodoItem/>
+
+        </div>
        
     )
 }
