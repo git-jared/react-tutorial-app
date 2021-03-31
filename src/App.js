@@ -3,6 +3,11 @@ import React from "react"
 import Joke from "./components/Joke.js"
 
 function App (){
+    const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    const doubles = nums.map(function(num) {
+        return num * 2
+    })
+    console.log(doubles);
     return (
         <div>
             <Joke
