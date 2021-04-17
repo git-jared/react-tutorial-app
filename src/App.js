@@ -1,20 +1,25 @@
-import React from "react"
+import React, {Component} from "react"
 
-// https://scrimba.com/p/p4Mrt9/cQnMDHD
 
-class App extends React.Component {
-    constructor() {
+class App extends Component{
+    constructor(){
         super()
         this.state = {
-            answer: "Yes"
+            isLoggedIn: true,
         }
     }
-    
-    render() {
-        return (
-            <div>
-                <h1>Is state important to know? {this.state.answer}</h1>
-            </div>
+    render(){
+        let wordDisplay;
+        if(this.state.isLoggedIn){
+            wordDisplay = 'in'
+
+        }
+        else{
+            wordDisplay = 'out'
+        }
+        
+        return(
+            <h1>Hello! you're logged {wordDisplay}</h1>
         )
     }
 }
